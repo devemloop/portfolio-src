@@ -1,0 +1,24 @@
+.config {
+  .page {
+    &-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  .form {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(2rem ,1fr));
+
+    &-group {
+      .button {
+        margin-left: auto;
+        background: var(--acent);
+      }
+    }
+  }
+}

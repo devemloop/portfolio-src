@@ -1,0 +1,105 @@
+#app {
+
+  &.light {
+    --dark: #414141;
+    --acent: #1976d2; // Blue 700
+    --light: #ffffff; // Blue 50
+    --white: #ffffff;
+    color: var(--dark);
+
+    &:after,
+    &:before {
+      box-sizing: border-box;
+    }
+
+    &::-webkit-scrollbar {
+      height: .4rem !important;
+      width: .4rem !important;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--acent) !important;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: none !important;
+    }
+
+    .header {
+      background: var(--light);
+      color: var(--dark);
+      border-right: 1px solid var(--acent);
+
+      &-image {
+        &--img {
+          border: 4px solid var(--light);
+          box-shadow: 0 0 0 4px var(--acent);
+        }
+
+        &--info {
+          color: var(--acent);
+
+        }
+      }
+      &-info {
+        color: var(--acent);
+        font-weight: bold;
+        &--item {
+          color: var(--acent);
+          &_link {
+            color: var(--acent);
+          }
+        }
+      }
+    }
+
+    .nav {
+      background: var(--light);
+    }
+
+    .main {
+      background: var(--light);
+
+      &>div {
+        .page {
+          &-title {
+            background: var(--light);
+            border-bottom: 1px solid var(--acent);
+            color: var(--acent);
+          }
+
+          &-content {
+            .list {
+              &-item {
+                &--span {
+                  &_title {
+                    color: var(--acent);
+                    font-weight: bold;
+                  }
+
+                  &_content {
+                    color: var(--dark);
+                  }
+                }
+
+                &--subitems {
+                  .list-items--subitems_title {
+                    color: var(--acent);
+                  }
+
+                  .list-items--subitems_content {
+                    color: var(--dark);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+      display: none;
+    }
+  }
+}

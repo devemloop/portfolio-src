@@ -1,0 +1,286 @@
+{
+  "name": "Curriculum <@devem>",
+  "controls": {
+    "theme": "Aspecto",
+    "language": "Lenguaje",
+    "fontsize": "Tamaño de fuente",
+    "reset": "Restaurar"
+  },
+  "general": {
+    "error": "---! ERROR 404 ¡---",
+    "message404": "La pagina solicitada no existe"
+  },
+  "header": {
+    "call": "LLAMAME",
+    "contact": "CONTACTAME"
+  },
+  "menu": [
+    {
+      "path": "home",
+      "icon": "home",
+      "label": "Inicio"
+    },
+    {
+      "path": "skills",
+      "icon": "skills",
+      "label": "Poderes"
+    },
+    {
+      "path": "works",
+      "icon": "works",
+      "label": "Trabajos"
+    },
+    {
+      "path": "social",
+      "icon": "network",
+      "label": "Redes"
+    },
+    {
+      "path": "friends",
+      "icon": "friends",
+      "label": "Amigos"
+    },
+    {
+      "path": "about",
+      "icon": "about",
+      "label": "Acerca..."
+    },
+    {
+      "path": "config",
+      "icon": "config",
+      "label": "Ajustes"
+    }
+  ],
+  "home": [
+    {
+      "name": "nombre",
+      "content": "Edwin Fernando Marroquin Bustos"
+    },
+    {
+      "name": "correo",
+      "content": "devemloop@gmail.com"
+    },
+    {
+      "name": "telefono",
+      "content": "3142670224"
+    },
+    {
+      "name": "Quien soy",
+      "content": "Tecnólogo en construcciones civiles por casualidad y apasionado entrenador deportivo, desarrollador autodidacta de corazón, curioso por naturaleza, creativo, con conocimiento en el área del desarrollo web, conocimiento adquirido a través de horas de estudio continuo y práctica constante buscando soluciones para problemas comunes que se me han presentado en la vida cotidiana."
+    }
+  ],
+  "friends": [
+    {
+      "image": "johan_vargas.png",
+      "name": "Johan Vargas",
+      "job": "Desarrollador web",
+      "phone": "3044704118",
+      "email": "johanvargas@outlook.com"
+    },
+    {
+      "image": "diego_marroquin.png",
+      "name": "diego marroquin",
+      "job": "Entrenador Deportivo",
+      "phone": "3142670224",
+      "email": "bumarroco@gmail.com"
+    },
+    {
+      "image": "adriana_ramirez.png",
+      "name": "Adriana Ramirez",
+      "job": "Tecnologa en sistemas",
+      "phone": "3173393006",
+      "email": "adrato10@gmail.com"
+    },
+    {
+      "image": "vanesa_rocha.png",
+      "name": "Vanessa Rocha",
+      "job": "Trabajadora Social",
+      "phone": "3183977142",
+      "email": "equipo5efira@gmail.com"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "devicon-html5-plain colored",
+      "skill": "html5"
+    },
+    {
+      "icon": "devicon-html5-plain colored",
+      "skill": "pug"
+    },
+    {
+      "icon": "devicon-css3-plain colored",
+      "skill": "css3"
+    },
+    {
+      "icon": "devicon-sass-plain colored",
+      "skill": "sass"
+    },
+    {
+      "icon": "devicon-javascript-plain colored",
+      "skill": "javascript"
+    },
+    {
+      "icon": "devicon-jquery-plain colored",
+      "skill": "jquery"
+    },
+    {
+      "icon": "devicon-nodejs-plain colored",
+      "skill": "nodejs"
+    },
+    {
+      "icon": "devicon-vuejs-plain colored",
+      "skill": "vuejs"
+    },
+    {
+      "icon": "devicon-php-plain colored",
+      "skill": "php"
+    },
+    {
+      "icon": "devicon-mysql-plain colored",
+      "skill": "mysql"
+    },
+    {
+      "icon": "devicon-inkscape-plain colored",
+      "skill": "inkscape"
+    },
+    {
+      "icon": "devicon-gimp-plain colored",
+      "skill": "gimp"
+    }
+  ],
+  "network": [
+    {
+      "icon": "fab fa-github fa-2x",
+      "name": "github",
+      "url": "https://github.com/marrokin"
+    },
+    {
+      "icon": "fab fa-codepen fa-2x",
+      "name": "codepen",
+      "url": "https://codepen.com/DevEm/pens/public/"
+    },
+    {
+      "icon": "fab fa-whatsapp fa-2x",
+      "name": "whatsapp",
+      "url": "https://wa.me/573142670224"
+    },
+    {
+      "icon": "fab fa-facebook-messenger fa-2x",
+      "name": "facebook",
+      "url": "https://messenger.com/t/marrokin2"
+    },
+    {
+      "icon": "fab fa-twitter fa-2x",
+      "name": "twitter",
+      "url": "https://twitter.com/marrokin2"
+    },
+    {
+      "icon": "fab fa-linkedin fa-2x",
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/marrokin2/"
+    },
+    {
+      "icon": "fab fa-instagram fa-2x",
+      "name": "instagram",
+      "url": "https://instagram.com/marrokin2/"
+    }
+  ],
+  "about": [
+    {
+      "name": "¿el porque?",
+      "content": "Este proyecto esta realizado con el fin de mostar mis conocimientos en desarrollo de interfaces web, usando tecnologias acordes a las necesidades"
+    },
+    {
+      "name": "¿el como?",
+      "content": "Haciendo uso de lenguajes de maquetado, lenguajes de estilos y lenguajes de programación, con apoyo de preprocesadores y entornos de trabajos especializados en el desarrollo web"
+    },
+    {
+      "name": "¿que se usó?",
+      "content": "A continuación se mostraran las tecnologias y herramientas usadas para este sitio",
+      "list": [
+        {
+          "name": "HTML",
+          "content": "En un principio se penso en usar PUG como lenguaje de maquetacion pero se prestaba para confuciones en relacion con los tabulados, finalmente se opto por HTML, llegando a ser un poco mas extenso el codigo de maquetacion pero ofreciendo mayor seguridad en el correcto etiquetado"
+        },
+        {
+          "name": "CSS",
+          "content": "Se uso SCSS como lenguaje de estilos el cual fue transpilado con scss-loader"
+        },
+        {
+          "name": "JAVASCRIPT",
+          "content": "En este caso se llego a la conclusion que VanillaJS era el mas adecuado para el desarrollo ya que al llamar una libreria completa como JQUERY seria cargar la aplicacion con codigo innecesario ya que la mayoria del trabajo la realiza el framework"
+        },
+        {
+          "name": "VUE",
+          "content": "Debido a su curva de aprendizaje se usa Vue en su version 2.6.11 como herramienta para el desarrollo agil de la aplicacion"
+        },
+        {
+          "name": "VUE-ROUTER",
+          "content": "Es impensable hacer uso de vue sin su enrutador oficila, vue-router en la version 3.1.5 se encarga de la magia detras de la carga de las paginas de manera dinamica"
+        },
+        {
+          "name": "VUE-I18N",
+          "content": "Gracias a este plugin de vue se le otorga un adicional en donde los usuarios en la seccion de configuracion pueden elegir el idioma en que quieren leer esta pagina"
+        },
+        {
+          "name": "BACKEND",
+          "content": "Para el backend se tomaron como base archivos json los cuales son usados como diccionarios"
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "name": "controls.theme",
+      "options": [
+        {
+          "name": "Defecto",
+          "value": "default"
+        },
+        {
+          "name": "Oscuro",
+          "value": "dark"
+        },
+        {
+          "name": "Claro",
+          "value": "light"
+        }
+      ]
+    },
+    {
+      "name": "controls.language",
+      "options": [
+        {
+          "name": "Español",
+          "value": "es_CO"
+        },
+        {
+          "name": "Ingles",
+          "value": "en_US"
+        }
+      ]
+    },
+    {
+      "name": "controls.fontsize",
+      "options": [
+        {
+          "name": "Pequeño",
+          "value": "small"
+        },
+        {
+          "name": "Normal",
+          "value": "normal"
+        },
+        {
+          "name": "Grande",
+          "value": "large"
+        },
+        {
+          "name": "Gigante",
+          "value": "big"
+        }
+      ]
+    }
+  ]
+}

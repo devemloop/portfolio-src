@@ -1,0 +1,43 @@
+.friends {
+	&>.list {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+		grid-gap: .5rem;
+
+		.list-item {
+			height: 6rem;
+
+			&--icon {
+				width: 5rem;
+				height: 5rem;
+			}
+
+			&--span {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+        height: 100%;
+        align-items: flex-start;
+
+				.name {
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+
+				.job {
+					font-size: .8rem;
+				}
+
+				.email {
+					font-weight: bold;
+					font-size: .8rem;
+					color: var(--acent);
+				}
+
+				.phone {
+					color: var(--dark);
+				}
+			}
+		}
+	}
+}
